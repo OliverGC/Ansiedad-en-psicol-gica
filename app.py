@@ -3,7 +3,7 @@ import json
 import requests
 
 # URL RAW del archivo JSON en tu GitHub
-GITHUB_URL = "https://raw.githubusercontent.com/OliverGC/ansiedad-psicologica/main/preguntas.json"
+GITHUB_URL = https://raw.githubusercontent.com/OliverGC/Ansiedad-en-psicol-gica/refs/heads/main/preguntas.json
 
 @st.cache_data
 def cargar_preguntas(url):
