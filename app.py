@@ -2,13 +2,25 @@ import streamlit as st
 import json
 import requests
 
-# URL del archivo JSON alojado en tu GitHub
+# URL RAW del archivo JSON en tu GitHub
 GITHUB_URL = "https://raw.githubusercontent.com/OliverGC/ansiedad-psicologica/main/preguntas.json"
 
 @st.cache_data
 def cargar_preguntas(url):
-    response = requests.get(url)
-    return response.json()
+    """
+    Descarga el JSON desde GitHub y maneja errores de conexión o de formato.
+    """
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Lanza error si hay problema con la descarga
+        data = response.json()       # Convierte a JSON
+        return data
+    except requests.exceptions.RequestException as e:
+        st.error(f"⚠️ Error al descargar el archivo: {e}")
+        return []
+    except ValueError:
+        st.error("⚠️ Error: el archivo descargado no es un JSON válido. Verifica el formato o la URL RAW.")
+        return []
 
 def main():
     st.title("🧠 Test de Ansiedad Psicológica")
@@ -16,6 +28,11 @@ def main():
 
     preguntas = cargar_preguntas(GITHUB_URL)
 
+    if not preguntas:
+        st.warning("No hay preguntas disponibles. Revisa tu archivo JSON o la URL.")
+        return
+
+    # Inicializa variables de sesión
     if "indice" not in st.session_state:
         st.session_state.indice = 0
         st.session_state.puntuacion = 0
@@ -45,6 +62,7 @@ def main():
             if st.button("Siguiente pregunta ➡️"):
                 st.session_state.indice += 1
                 st.session_state.mostrando_feedback = False
+
     else:
         st.success("🎯 ¡Has completado el test!")
         st.write(f"**Tu puntuación final es:** {st.session_state.puntuacion} / {len(preguntas)}")
