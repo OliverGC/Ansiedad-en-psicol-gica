@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué es la ansiedad desde una perspectiva psicológica?",
+    "opciones": [
+      "Una respuesta natural del organismo ante estímulos placenteros.",
+      "Una emoción adaptativa que prepara al individuo para enfrentar amenazas.",
+      "Un trastorno que siempre implica disfunción patológica.",
+      "Un síntoma exclusivo de la depresión."
+    ],
+    "correcta": 1,
+    "explicacion": "La ansiedad es una emoción adaptativa que prepara al cuerpo para actuar ante situaciones de peligro o estrés."
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes síntomas es característico de la ansiedad?",
+    "opciones": [
+      "Somnolencia extrema.",
+      "Hipervigilancia y tensión muscular.",
+      "Falta total de emociones.",
+      "Delirios y alucinaciones."
+    ],
+    "correcta": 1,
+    "explicacion": "La ansiedad genera activación fisiológica, incluyendo hipervigilancia y tensión muscular."
+  },
+  {
+    "pregunta": "¿En qué se diferencia la ansiedad normal de un trastorno de ansiedad?",
+    "opciones": [
+      "En la frecuencia y la intensidad de la respuesta ansiosa.",
+      "En que solo las personas débiles sienten ansiedad.",
+      "En que la ansiedad normal no tiene síntomas físicos.",
+      "En que los trastornos de ansiedad no se pueden tratar."
+    ],
+    "correcta": 0,
+    "explicacion": "La diferencia radica en la intensidad, duración y el impacto funcional."
+  },
+  {
+    "pregunta": "¿Qué estructura cerebral está más relacionada con la respuesta de ansiedad?",
+    "opciones": [
+      "El hipocampo.",
+      "La amígdala.",
+      "El cuerpo calloso.",
+      "El lóbulo occipital."
+    ],
+    "correcta": 1,
+    "explicacion": "La amígdala detecta amenazas y activa la respuesta de miedo y ansiedad."
+  },
+  {
+    "pregunta": "¿Qué caracteriza a un trastorno de ansiedad generalizada (TAG)?",
+    "opciones": [
+      "Preocupación excesiva y persistente sobre diversas situaciones.",
+      "Ataques repentinos de miedo intenso.",
+      "Miedo específico a un objeto o situación.",
+      "Falta total de interés por las actividades diarias."
+    ],
+    "correcta": 0,
+    "explicacion": "El TAG se distingue por la preocupación constante y difícil de controlar."
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes técnicas es más eficaz para reducir la ansiedad?",
+    "opciones": [
+      "La evitación constante de las situaciones temidas.",
+      "La respiración diafragmática y relajación muscular progresiva.",
+      "El consumo frecuente de estimulantes.",
+      "Ignorar completamente las emociones."
+    ],
+    "correcta": 1,
+    "explicacion": "Las técnicas de relajación ayudan a reducir la activación fisiológica asociada a la ansiedad."
+  },
+  {
+    "pregunta": "¿Qué papel juega el pensamiento en la ansiedad según la terapia cognitiva?",
+    "opciones": [
+      "Los pensamientos negativos y distorsionados mantienen la ansiedad.",
+      "Los pensamientos no tienen relación con la ansiedad.",
+      "Solo los pensamientos positivos causan ansiedad.",
+      "La ansiedad depende exclusivamente del entorno físico."
+    ],
+    "correcta": 0,
+    "explicacion": "La terapia cognitiva sostiene que los pensamientos distorsionados generan y mantienen la ansiedad."
+  },
+  {
+    "pregunta": "¿Cuál es una manifestación física común de la ansiedad?",
+    "opciones": [
+      "Frecuencia cardíaca elevada.",
+      "Disminución del ritmo respiratorio.",
+      "Hipotermia.",
+      "Pérdida del sentido del gusto."
+    ],
+    "correcta": 0,
+    "explicacion": "La activación del sistema nervioso simpático eleva la frecuencia cardíaca."
+  },
+  {
+    "pregunta": "¿Qué factor psicológico puede predisponer a desarrollar ansiedad?",
+    "opciones": [
+      "Tener una personalidad perfeccionista y autocrítica.",
+      "Ser completamente desinteresado y pasivo.",
+      "No tener emociones negativas.",
+      "No experimentar estrés en absoluto."
+    ],
+    "correcta": 0,
+    "explicacion": "El perfeccionismo y la autocrítica elevan la vulnerabilidad a la ansiedad."
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal del tratamiento psicológico de la ansiedad?",
+    "opciones": [
+      "Eliminar toda forma de ansiedad.",
+      "Aprender a manejar y reducir la ansiedad de manera adaptativa.",
+      "Sustituir la ansiedad por enojo.",
+      "Evitar toda situación que genere tensión."
+    ],
+    "correcta": 1,
+    "explicacion": "El objetivo es desarrollar habilidades para manejar la ansiedad sin eliminarla por completo, ya que cumple una función adaptativa."
+  }
+]
